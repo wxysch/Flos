@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="item">
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="header">
+          <div class="header__container container">
+            <div class="header__logo">
+              <img src="../image/logo.svg" alt="" />
+            </div>
+            <nav class="header__nav">
+              <ul class="header__menu">
+                <li class="header__menu-link active">
+                  <a href="/kursovaya/index.html">главная</a>
+                </li>
+                <li class="header__menu-link"><a href="#">О бренде</a></li>
+                <li class="header__menu-link"><a href="#">товары</a></li>
+              </ul>
+            </nav>
+            <div class="header__author">
+              <button class="header__author-btn1"><a href="./pages/signup.html">Регистрация</a></button>
+              <button class="header__author-btn"><a href="./pages/login.html">Вход</a></button>
+            </div>
+          </div>
+        </header>
+        <div class="modal">
+          <div class="modal__content">
+            <button id="closeModal">&times;</button>
+            <img src="../image/successfully.svg" alt="" />
+            <h2>заказ оформлен успешно</h2>
+          </div>
+        </div>
+        <main>
+          <section class="products">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="swiper swiper_main">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="../image/image 48.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/image 49.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/image 48.png" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper swiper_thumbnail">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="../image/image 48.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/image 49.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/image 48.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="products__content">
+                    <div>
+                      <h2 class="products__content-title">twisty silver</h2>
+                      <h2 class="products__content-price">1990 Р</h2>
+                    </div>
+                    <p class="products__content-text">
+                      декоративные металические нержавеющие детали
+                    </p>
+                    <button class="products__content-btn" id="modal">
+                      купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>
