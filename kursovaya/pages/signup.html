@@ -7,7 +7,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Document</title>
   </head>
   <body class="sign">
@@ -21,15 +21,24 @@
             <nav class="header__nav">
               <ul class="header__menu">
                 <li class="header__menu-link active">
-                  <a href="/kursovaya/index.html">главная</a>
+                  <a href="/index.html">главная</a>
                 </li>
                 <li class="header__menu-link"><a href="#">О бренде</a></li>
                 <li class="header__menu-link"><a href="#">товары</a></li>
+                <div class="header__author">
+                  <button class="header__author-btn">
+                    <a href="./login.html">Вход</a>
+                  </button>
+                </div>
               </ul>
+              <div class="mobile-btn">
+                <span></span>
+              </div>
             </nav>
-            <div class="header__author">
-              <button class="header__author-btn1"><a href="./pages/signup.html">Регистрация</a></button>
-              <button class="header__author-btn"><a href="./pages/login.html">Вход</a></button>
+            <div class="header__author none">
+              <button class="header__author-btn">
+                <a href="./login.html">Вход</a>
+              </button>
             </div>
           </div>
         </header>
@@ -67,5 +76,6 @@
         </div>
       </footer>
     </div>
+    <script src="../main.js"></script>
   </body>
 </html>
